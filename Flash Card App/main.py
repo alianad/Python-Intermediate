@@ -68,8 +68,8 @@ wrong_button = Button(image=wrong_image, highlightthickness=0, command=next_card
 wrong_button.grid(column=0, row=1)
 
 right_image = PhotoImage(file="./images/right.png")
-wrong_button = Button(image=right_image, highlightthickness=0, command=is_known)
-wrong_button.grid(column=1, row=1)
+right_button = Button(image=right_image, highlightthickness=0, command=is_known)
+right_button.grid(column=1, row=1)
 
 
 next_card()
